@@ -1,0 +1,214 @@
+@media only screen and (max-width: 1150px) {
+    /* For mobile phones: */
+    [class*="p"] {
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1150px) {
+    /* For web: */
+    [class*="p"] {
+        margin: 0px 200px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    /* For mobile phones: */
+    [id*="logo-heading"] {
+        top: -40%;
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 1150px) {
+    /* For web: */
+    [id*="logo-heading"] {
+        top: 0%;
+        font-size: 90px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    /* For mobile phones: */
+    [id*="openNav"] {
+        margin: 50% 10px;
+    }
+}
+@media only screen and (min-width: 1150px) {
+    /* For web: */
+    [id*="openNav"] {
+        margin: 20% 10px;
+    }
+}
+@media only screen and (max-height: 640px) {
+    /* For mobile phones: */
+    [id*="socialDiv"] {
+        bottom: 20px;
+    }
+}
+@media only screen and (min-height: 640px) {
+    /* For web: */
+    [id*="socialDiv"] {
+        bottom: 50px;
+    }
+}
+body {
+    margin: 0px;
+}
+
+/* Navbar */
+#openNav {
+    position: fixed;
+    transition: 0.2s;
+    z-index: 2;
+    opacity: 0.8;
+}
+#openNav:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+#closebtn {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+}
+#navbar {
+    transition: 0.3s;
+    background-color: #f7941d;
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    text-align: center;
+    margin-top: -1px;
+    overflow: hidden;
+    z-index: 4;
+}
+#logo-nav {
+    margin: 20px;
+}
+#btns {
+    margin-top: 50px;
+}
+.nav-btn {
+    background-color: #f7941d;
+    color: white;
+    border: none;
+    border-top: solid 1.5px white;
+    border-bottom: solid 1.5px white;
+    padding: 40px;
+    width: 250px;
+    font-size: 20px;
+    transition: 0.3s;
+    margin: -1.5px 0px;
+}
+.nav-btn:hover {
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    color: black;
+}
+#socialDiv {
+    position: absolute;
+    left: 30%;
+}
+.socialMedia {
+    margin: 0px 5px;
+    transition: 0.2s;
+}
+.socialMedia:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+/**/
+
+#div {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.192);
+    transition: 0.2s;
+}
+#food1 {
+    width: 100%;
+    box-shadow: 5px 2px rgba(206, 204, 204, 0.637);
+}
+#heading {
+    position: relative;
+    
+}
+#food1 {
+    filter: blur(1.2px);
+    z-index: 1;
+}
+#searchholder {
+    z-index: 2;
+}
+#searchbar {
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+#searchbtn {
+    position: absolute;
+    right: 0;
+    margin: -40px 20px;
+    font-size: 28px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(136, 136, 136);
+    border: none;
+}
+#searchbtn:hover {
+    cursor: pointer;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+#logo-heading {
+    position: absolute;
+    left: 20%;
+    color: white;
+    z-index: 2;
+    font-family: garamond;
+}
+.h3-heading {
+    color: rgb(54, 51, 51);
+    font-family: garamond;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(54, 51, 51); 
+    line-height: 0px;
+}
+.h3-heading span {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#text {
+    margin: 0px 50px;
+}
+.imgSlides:hover {
+    transform: scale(0.95,0.95);
+    cursor: pointer;
+
+}
+.slides {
+    background-color: #f7941d;
+}
+
+
