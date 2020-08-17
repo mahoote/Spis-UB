@@ -1,0 +1,622 @@
+{
+    "restaurants": {
+        "Smak og Sans Sushi": {
+            "name":"Smak og Sans Sushi",
+            "type":"restaurant",
+            "URL": "http: //smak-og-sans-sushi-3915.com",
+            "description": "",
+            "locations": [{
+                "location": {
+                    "lat": 0,
+                    "lng": 0
+                },
+                "description": "String"
+            }],
+            "menu": {
+                "Drikke": [{
+                    "name": "Coca-Cola",
+                    "price": 33.00
+                }, {
+                    "name": "Coca-Cola Zero",
+                    "price": 33.00
+                }, {
+                    "name": "Sprite",
+                    "price": 33.00
+                }, {
+                    "name": "Fanta",
+                    "price": 33.00
+                }, {
+                    "name": "Pepsi max",
+                    "price": 33.00
+                }, {
+                    "name": "Farris Naturell",
+                    "price": 33.00
+                }, {
+                    "name": "BonAqua - Med kulgyre",
+                    "price": 33.00
+                }, {
+                    "name": "BonAqua - Uten kulsyre",
+                    "price": 33.00
+                }, {
+                    "name": "Eplemost",
+                    "price": 35.00
+                }],
+                "Forretter": [{
+                        "name": "Smak & Sant salat",
+                        "price": 89.00,
+                        "Description": "Sjøtang salat og scampi\n\n Allergener: SK,\n SE "
+                    },
+                    {
+                        "name": "Hjemmelaget vårruller",
+                        "price": 45.00,
+                        "Description": "Med scampi og grønnsaker. 2 stk.\n\n Allergener: G "
+                    },
+                    {
+                        "name": "Hjemmelaget vegetar vårruller",
+                        "price": 45.00,
+                        "Description": "Med grønnsaker og tofu\n\n Allergener: G "
+                    },
+                    {
+                        "name": "Misosuppe",
+                        "price": 49.00,
+                        "Description": "Vegetar & tofu\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Dagens",
+                        "price": 115.00,
+                        "Description": "10 biter + Vårrull\n\n Allergener: SK,\n SE "
+                    },
+                    {
+                        "name": "Wonton 4 stk.",
+                        "price": 40.00,
+                        "Description": "Allergener: SK, G"
+                    },
+                    {
+                        "name": "Tempura Snacks",
+                        "price": 79.00,
+                        "Description": ""
+                    }
+
+
+                ],
+                "Smak & Sans Pakker": [{
+                        "name": "Liten - 8 biter",
+                        "price": 85.00,
+                        "Description": "Sushi: 2 laks, 1 kveite, 1 tuna\n Maki: 4 laksemaki\n\n Allergener: G,\n SE "
+                    },
+                    {
+                        "name": "Medium - 10 biter",
+                        "price": 109.00,
+                        "Description": "Sushi: 3 laks, 1 scampi, 1 tuna, 1 kveite\n Maki: 4 laksemaki\n\n Allergener: G,\n SE "
+                    },
+                    {
+                        "name": "Stor-m-Laks Maki - 15 biter",
+                        "price": 159.00,
+                        "Description": "Sushi: 4 laks, 1 kveite, 1 scampi, 1 tuna\n Maki: 8 laksemaki\n\n Allergener: G,\n SE "
+                    },
+                    {
+                        "name": "Stor-m-Tempura - 15 biter",
+                        "price": 189.00,
+                        "Description": "Sushi: 4 laks, 1 kveite, 1 scampi, 1 tuna\n Tempura maki: 8 tempura maki(Nr .16)\n\n Allergener: G,\n SE,\n SK "
+                    },
+                    {
+                        "name": "Middag-m-Laks Maki - 20 biter",
+                        "price": 199.00,
+                        "Description": "Sushi: 5 laks, 1 kveite, 1 scampi 2 tuna, 1 kamskjell, 2 hamachi\n Maki: 8 laksemaki\n\n Allergener: G,\n SE "
+                    },
+                    {
+                        "name": "Middag-m-Tempura - 20 biter",
+                        "price": 229.00,
+                        "Description": "Sushi: 5 laks, 1 kveite, 1 scampi, 2 tuna, 1 kamskjell, 2 hamachi\n Tempura maki: 8 tempura maki(Nr .16)\n\n Allergener: G,\n SE "
+                    },
+                    {
+                        "name": "Asker Exclusive - 30 biter",
+                        "price": 460.00,
+                        "Description": "2 vårruller, 4 laks, 2 hummer, 2 scampi, 2 kamskjell, 2 kveite, 2 hamachi, 2 laksrose, 6 humemrmaki, 8 tempura maki, serveres med sjøtangsalat og husets saus\n\n Allergener: S,\n SE,\n SK "
+                    },
+                    {
+                        "name": "Familiepakke - 42 biter",
+                        "price": 459.00,
+                        "Description": "Sushi: 12 laks, 3 kveite, 3 scampi, 3 tunfisk, 3 hamachi, 3 kamskjell, 3 ål og 12 biter tempura futo maki (Nr. 19B)\n\n Allergener: G,\n SE,\n SK "
+                    },
+                    {
+                        "name": "Partypakke - 56 biter",
+                        "price": 589.00,
+                        "Description": "Sushi: 12 laks, 4 kveite, 4 scampi, 4 tuna, 4 hamachi, 4 kamskjell, 4 ål\n 8 biter laksemaki og 12 biter tempura futo maki(Nr .19 B)\n\n Allergener: S,\n SE,\n SK "
+                    },
+                    {
+                        "name": "Smak & Sanspakke - 30 biter",
+                        "price": 319.00,
+                        "Description": "Sushi: 6 laks, 2 kveite, 2 scampi, 2 tuna, 2 hamaci, 2 kamskjell, 2 laksrose og 12 biter tempura futo maki (Nr. 19B)\n\n Allergener: G,\n SE,\n SK "
+                    },
+                    {
+                        "name": "Smak & Sanspakke - 5 & 10 biter Sashimi",
+                        "price": 598.00,
+                        "Description": "Smak & Sanspakke 30 biter og 10 biter sashimi\n\n Allergener: SE,\n G,\n SK "
+                    }
+                ],
+                "Maki & Tempura": [{
+                        "name": "Vegetar Maki - Agurk",
+                        "price": 49.00,
+                        "Description": "Avocado / Agurk og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Vegetar Maki - Avocado",
+                        "price": 49.00,
+                        "Description": "Avocado / Agurk og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Laksemaki",
+                        "price": 59.00,
+                        "Description": "Laks, purreløk og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Philadelphia Maki",
+                        "price": 89.00,
+                        "Description": "Laks, philadelphia ost og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Sakura Maki",
+                        "price": 65.00,
+                        "Description": "Laks, avocado og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "California Maki",
+                        "price": 65.00,
+                        "Description": "Crabsticks, avocado og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Scampi Maki",
+                        "price": 79.00,
+                        "Description": "Kokt scampi, avocado og sesamfrø\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Kawa Maki",
+                        "price": 89.00,
+                        "Description": "Fritert lakseskinn, agurk, sesamfrø og flyvefiskrogn og husets spesialsaus\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Sake Maki",
+                        "price": 79.00,
+                        "Description": "Laks, avocado og sesamfrø med lakserogn\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Kim Chi Tuna (Hot)",
+                        "price": 99.00,
+                        "Description": "Kim chi, tuna og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Spicy Tuna Maki",
+                        "price": 79.00,
+                        "Description": "Tuna, avocado, sesamfrø og chilimajones\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Kamskjell Maki",
+                        "price": 79.00,
+                        "Description": "Kamskjell, avocado og sesamfrø\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Kveite Maki",
+                        "price": 75.00,
+                        "Description": "Kveite, avocado, sesamfrø og chilimajones\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Spicy Hamachi Maki",
+                        "price": 79.00,
+                        "Description": "Hamachi, avocado, sesamfrø og chilimajones\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Husets Maki",
+                        "price": 99.00,
+                        "Description": "Kokt scampi, laks, avocado, lakserogn og sesamfrø\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Smak & Sans Maki",
+                        "price": 109.00,
+                        "Description": "Fritert scampi, avocado, laks og sesamfrø\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Stekt Scampi",
+                        "price": 109.00,
+                        "Description": "Med Philadelphia ost og chili (spicy)\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Tempura Maki",
+                        "price": 85.00,
+                        "Description": "Fritert scampi, avocado og sesamfrø\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Dragon Maki",
+                        "price": 109.00,
+                        "Description": "Fritert kylling, agurk, sesamfrø og husets spesialsaus\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Tempura Kylling Maki",
+                        "price": 85.00,
+                        "Description": "Fritert kylling, avocado og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Hummer Maki",
+                        "price": 109.00,
+                        "Description": "Hummer, avocado, flyvefiskrogn og sesamfrø\n\n Allergener: SE,\n SK "
+                    },
+                    {
+                        "name": "Lakse Krutong",
+                        "price": 89.00,
+                        "Description": "Laks fritert krutonger, flyvefiskrogn og sesamfrø\n\n Allergener: SE "
+                    },
+                    {
+                        "name": "Regnbue",
+                        "price": 109.00,
+                        "Description": "Laks, tuna, kveite, kamskjell, scampi, avocado og sesamfrø\n\n Allergener: SE,\n SK "
+                    }
+                ],
+                "Futo & Spesiell Maki/Tempura": [{
+                        "name": "Fritert Lakse Maki",
+                        "price": 89.00,
+                        "description": "Laks, kimchi purreløk og sesamfrø\n\nAllergener: G,\nSE "
+                    },
+                    {
+                        "name": "Hot Delux",
+                        "price": 109.00,
+                        "description": "Fritert scampi, tunfisk, flyvefiskrogn, avokado og sesamfrø\n\nAllergener: G,\nSE,\nSK "
+                    },
+                    {
+                        "name": "Stekt Kylling",
+                        "price": 109.00,
+                        "description": "Med Philadelphia ost, purreløk og chili\n\nAllergener: G,\nSE "
+                    },
+                    {
+                        "name": "Crazy Duck",
+                        "price": 110.00,
+                        "description": "Fritert and, agurk, kimchi, purreløk, sesamfrø med hoisinsaus\n\nAllergener: G,\nSE "
+                    },
+                    {
+                        "name": "Porsgrunn Special",
+                        "price": 110.00,
+                        "description": "Laks, kokt scampi, flyvefiskrogn, laksrogn, chilimajones, avocado, purreløk og sesamfrø\n\nAllergener: G,\nSE "
+                    },
+                    {
+                        "name": "Tiger Maki",
+                        "price": 109.00,
+                        "description": "Crabtick ,avocado,topper med flambert Laks, avocado omed teriyaki saus og sesamfrø\n\nAllergener: G,\nSE,\nSK "
+                    },
+                    {
+                        "name": "Mango Maki",
+                        "price": 109.00,
+                        "description": "Fritert Laks , mango, Philadelphia ost, topper med flambert Laks med teriyaki saus, og sesamfrø\n\nAllergener: G,\nSE,\nSK "
+                    },
+                    {
+                        "name": "Tofu Maki",
+                        "price": 89.00,
+                        "description": "Fritert tofu ,agurt, kimchi, sesamfrø & chillimajones og teriyaki saus\n\nAllergener: G,\nSE,\nSK "
+                    },
+                    {
+                        "name": "Spicy Chicken",
+                        "price": 109.00,
+                        "description": "Fritert kylling, avokado,Agurk, sesamfrø og sweet chilli saus\n\nAllergener: G,\nSE "
+                    },
+                    {
+                        "name": "Chili Laks",
+                        "price": 79.00,
+                        "description": "Laks ,Agurt og purre i chilliolje med sichimi krydder og sesamfrø\n\nAllergener: G,\nSE "
+                    }
+
+                ],
+                "Sashimi": [{
+                        "name": "Mini Sashimi 8 biter",
+                        "price": 79.00,
+                        "description": "Allergener: G, SE"
+                    },
+                    {
+                        "name": "Liten Sashimi 15 biter",
+                        "price": 139.00,
+                        "description": "Allergener: G, SE"
+                    },
+                    {
+                        "name": "Kombo Sashimi 25 biter",
+                        "price": 229.00,
+                        "description": "Allergener: G, SE, SK"
+                    },
+                    {
+                        "name": "Stor Sashimi 20 biter",
+                        "price": 189.00,
+                        "description": "Allergener: G, SE, SK"
+                    }
+
+                ],
+                "Sushi / Nigiri Biter": [{
+                        "name": "Laks - Pr. stk.",
+                        "price": 15.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Avocado - Pr. stk.",
+                        "price": 15.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Crabstick - Pr. stk.",
+                        "price": 15.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Kokt Scampi - Pr. stk.",
+                        "price": 18.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Hamachi - Pr. stk.",
+                        "price": 18.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Tuna - Pr. stk.",
+                        "price": 18.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Kveite - Pr. stk.",
+                        "price": 18.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Kamskjell - Pr. stk.",
+                        "price": 18.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Lakserogn - Pr. stk.",
+                        "price": 18.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Hummer - Pr. stk.",
+                        "price": 25.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Laksrose - Pr. stk.",
+                        "price": 25.00,
+                        "description": ""
+                    }
+
+                ],
+                "Tilbehør": [{
+                        "name": "Ingefær",
+                        "price": 10.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Sjøtangsalat i boks",
+                        "price": 50.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Rekechip",
+                        "price": 30.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Edamame (Soyabønner)",
+                        "price": 45.00,
+                        "description": ""
+                    }
+
+                ]
+
+            }
+        },
+        "Pizzakompaniet": {
+            "name":"Pizzakompaniet",
+            "type":"restaurant",
+            "URL": "http://www.pizzakompaniet.net",
+            "description": "",
+            "locations": [{
+                "location": {
+                    "lat": 0,
+                    "lng": 0
+                },
+                "description": "String"
+            }],
+            "menu": {
+                "Drikke": [{
+                        "name": "Coca Cola - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Coca Cola Zero - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Pepsi Max - 0,5L",
+                        "price": 35.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Pepsi Max - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Solo - 0,5L",
+                        "price": 35.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Solo - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Fanta - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Fanta Zero - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Sprite - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Sprite Zero - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Villa - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Urge - 1,5 L",
+                        "price": 45.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "7-Up - 0,5 L",
+                        "price": 35.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Mozell - 0,5 L",
+                        "price": 35.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Farris - 0,5 L",
+                        "price": 35.00,
+                        "decription": ""
+                    },
+                    {
+                        "name": "Imsdal - 0,5 L",
+                        "price": 35.00,
+                        "decription": ""
+                    }
+
+                ],
+                "Pizza": [{
+                        "name": "Sesjon",
+                        "price": 184.00,
+                        "description": "Med ost, skinke og champignon\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "Gangstjenesten",
+                        "price": 194.00,
+                        "description": "Med ost, skinke, løk, paprika og champignon\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "Heimvernet",
+                        "price": 204.00,
+                        "description": "Med ost, bacon, løk og purre\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "På stedet hvil!",
+                        "price": 204.00,
+                        "description": "Med ost, kjøttdeig, løk og champignon\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "Admiralen",
+                        "price": 204.00,
+                        "description": "Med ost, reker, champginon og purre\n \n Allergener: Melk, hvete, sennep, selleri, skalldyr"
+                    },
+                    {
+                        "name": "Oberstens Fristelse",
+                        "price": 224.00,
+                        "description": "Med ost, biff, paprika, champignon og løk\n \n Allergener: Melk, hvete, sennep, selleri, soya"
+                    },
+                    {
+                        "name": "Generalens Drøm",
+                        "price": 224.00,
+                        "description": "Med ost, biff og ananas\n \n Allergener: Melk, hvete, sennep, selleri, soya"
+                    },
+                    {
+                        "name": "Giv Akt!",
+                        "price": 219.00,
+                        "description": "Med ost, pepperoni, paprika og champignon\n \n Allergener: Melk, hvete, sennep, selleri, hvitløk"
+                    },
+                    {
+                        "name": "Avdeling Holdt!",
+                        "price": 219.00,
+                        "description": "Med ost, pepperoni, ananas og oliven\n \n Allergener: Melk, hvete, sennep, selleri, hvitløk"
+                    },
+                    {
+                        "name": "Pasifisten",
+                        "price": 174.00,
+                        "description": "Med ost, løk, paprika, purre, ananas, mais og champignon\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "Pizzakompaniet Spesial",
+                        "price": 234.00,
+                        "description": "Fritt valg - Komponér din egen pizza. (Venligst skriv dine valg i kommentarfeltet på neste side)\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "Kruttønna",
+                        "price": 229.00,
+                        "description": "Med ost, marinert biff, paprika, mais, løk, jalapenos og chili\n \n Allergener: Melk, hvete, sennep, selleri, hvitløk, soya"
+                    },
+                    {
+                        "name": "CheGuevara",
+                        "price": 219.00,
+                        "description": "Med ost, nacho-chips, kjøttdeig, purre, ananas, paprika og løk\n \n Allergener: Melk, hvete, sennep, selleri"
+                    },
+                    {
+                        "name": "B52",
+                        "price": 229.00,
+                        "description": "Med ost, kylling, purre, paprika, mais, jalapenos og salsa\n \n Allergener: Melk, hvete, sennep, selleri hvitløk, soya, paprika"
+                    },
+                    {
+                        "name": "Luftforsvaret",
+                        "price": 229.00,
+                        "description": "Med ost, kylling, purre, champignon, tomat og hvitløk\n \n Allergener: Melk, hvete, sennep, selleri, hvitløk, soya, paprika"
+                    },
+                    {
+                        "name": "Majorens BBQ",
+                        "price": 229.00,
+                        "description": "Med ost, tomat, kyllnig, peanøtter, ananas og bbq-saus\n \n Allergener: Melk, hvete, sennep, selleri, hvitløk, soya, paprika"
+                    },
+                    {
+                        "name": "El Capitan",
+                        "price": 229.00,
+                        "description": "Med ost, nacho-chips, tacokjøtt, mais, paprika, salsa og jalapenos\n \n Allergener: Melk, hvete, sennep, selleri, hvitløk, soya"
+                    },
+                    {
+                        "name": "Glutenfri Pizza",
+                        "price": 169.00,
+                        "description": "Medium størrelse med valgfri topping (Vennligst skriv dine valg i kommentarfeltet på neste side)\n \n Allergener: Melk"
+                    }
+
+                ],
+                "Tilbehør": [{
+                        "name": "Rømmedressing - I beger",
+                        "price": 23.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Pizza saus - I beger",
+                        "price": 13.00,
+                        "description": "Alergener: Tomat"
+                    },
+                    {
+                        "name": "Ekstra ost",
+                        "price": 28.00,
+                        "description": ""
+                    },
+                    {
+                        "name": "Ekstra kjøtt",
+                        "price": 28.00,
+                        "description": ""
+                    }
+
+                ]
+            }
+        }
+    }
+}

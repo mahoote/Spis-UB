@@ -1,0 +1,540 @@
+@media only screen and (max-width: 1535px) {
+    /* For mobile phones: */
+    [class*="centerDiv"] {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1315px) {
+    /* For web: */
+    [id*="searchPhone"] {
+        top: 32%;
+        position: absolute;
+        left: 30%;
+        right: 30%;
+    }
+    [class*="searchbar"] {
+        z-index: 3;
+    }
+    [class*="font"] {
+        margin: 0px 200px;
+        font-size: 20px;
+    }
+    [id*="spis-small"] {
+        display: none;
+    }
+    [id*="spisUB"] {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1315px) {
+    /* For mobile phones: */
+    [id*="searchPhone"] {
+        width: 100%;
+    }
+    [class*="searchbar"] {
+        z-index: 2;
+    }
+    [class*="font"] {
+        margin: 0px 10px;
+        font-size: 20px;
+    }
+    [id*="spis-small"] {
+        display: inline-block;
+    }
+    [id*="spisUB"] {
+        display: none;
+    }
+}
+@media only screen and (min-width: 834px) {
+    /* For web: */
+    [id*="searchResults"] {
+        max-height: 450px;
+    }
+
+    [id*="btnDiv"] {
+        width:40%;
+    }
+    [id*="addresse"] {
+        width:35%;
+        margin:5px;
+        margin-right: 20px;
+        float: right;
+    }
+    [id*="menyInfoUtskrift"] {
+        float:left;
+        width:50%;
+        margin:5px;
+        margin-left:20px;
+        
+    }
+}
+@media only screen and (max-width: 834px) {
+    /* For mobile phones: */
+    [id*="searchResults"] {
+        max-height: 300px;
+    }
+    [id*="menyInfoUtskrift"] {
+        float:none;
+        width: 90%;
+        margin:0px auto;
+    }
+    [id*="addresse"] {
+        width:90%;
+        margin: 10px auto;
+        float: none; 
+    }
+}
+@media only screen and (min-width: 760px) {
+    /* For web: */
+    [class*="responsive"] {
+        width: 24.9%;
+    }
+    [id*="visBilder"] {
+        margin-top: 2px;
+    }
+    [class*="h3-heading"] {
+        display: block;
+    }
+    [class*="img-category"] {
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px) {
+    /* For mobile phones: */
+    [class*="responsive"] {
+        width: 50%;
+    }
+    [class*="h3-heading"] {
+        display: none;
+    }
+    [class*="img-category"] {
+        display: block;
+    }
+}
+
+@media only screen and (max-height: 678px) {
+    /* For mobile phones: */
+    [id*="socialDiv"] {
+        bottom: 15px;
+    }
+    [id*="btns"] {
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-height: 678px) {
+    /* For web: */
+    [id*="socialDiv"] {
+        bottom: 50px;
+    }
+    [id*="btns"] {
+        margin-top: 50px;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+}
+#main {
+    margin-bottom: 60px;
+}
+
+/* Navbar */
+#openNav {
+    position: fixed;
+    margin: 42vh 10px;
+    transition: 0.2s;
+    z-index: 3;
+    opacity: 0.8;
+}
+#openNav:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+#closebtn {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+}
+#navbar {
+    transition: 0.3s;
+    background-color: #f7941d;
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    text-align: center;
+    margin-top: -1px;
+    overflow: hidden;
+    z-index: 4;
+}
+#logo-nav {
+    margin: 20px;
+}
+.nav-btn {
+    background-color: #f7941d;
+    color: white;
+    border: none;
+    border-top: solid 1.5px white;
+    border-bottom: solid 1.5px white;
+    padding: 40px;
+    width: 250px;
+    font-size: 20px;
+    transition: 0.3s;
+    margin: -1.5px 0px;
+}
+.nav-btn:hover {
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    color: black;
+}
+#socialDiv {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 15%;
+}
+.socialMedia {
+    margin: 0px 5px;
+    transition: 0.2s;
+}
+.socialMedia:hover {
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+/**/
+
+#div{
+    display: none;
+    z-index: 3;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    transition: 0.2s;
+}
+#spisUB {
+    width: 100%;
+}
+#spis-small {
+    width: 100%;
+}
+#heading {
+    position: relative; 
+}
+.overflow {
+    overflow: hidden;
+}
+#searchPhone {
+    position: absolute;
+
+}
+.searchbar {
+    transition: 0.2s;
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+.searchbtn {
+    position: absolute;
+    margin: -40px 5px;
+    
+    font-size: 28px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(136, 136, 136);
+    border: none;
+}
+.searchbtn:hover {
+    cursor: pointer;
+}
+
+#searchresult {
+    height: 500px;
+}
+
+.ekstra {
+    position: absolute;
+    bottom: 20px;  
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    /* opacity: 0.8;  */
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Skygge rundt hele */
+  }
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+padding-top: 60px;
+}
+#spisUB {
+    width: 100%;
+}
+#spisUB-small {
+    width: 100%;
+}
+.img-category {
+    width: 150px;
+    margin: 70px auto;
+}
+.h3-heading {
+    color: rgb(54, 51, 51);
+    font-family: garamond;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(54, 51, 51); 
+    line-height: 0px;
+}
+.h3-heading span {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px 50px;
+}
+#visBilder {
+    background-color: #f7941d;
+    display: inline-block;
+}
+.slides {
+    float: left;
+
+}
+.imgSlides:hover {
+    transition: 0.2s;
+    transform: scale(0.95,0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Skygge rundt hele */
+    cursor: pointer;
+}
+
+.imgSlides {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+.imgLocations {
+    width: 100%;
+}
+.imgLocations:hover {
+    transition: 0.2s;
+    transform: scale(0.95,0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Skygge rundt hele */
+    cursor: pointer;
+}
+.imgBottom {
+    margin-top: -4px; 
+}
+#results {
+    width:100%;
+    display: table;
+}
+.gallery{
+    width: 100%;
+    height: auto;
+  }
+  .responsive {
+    float: left;
+    
+  }
+  #locations {
+    background-color: aqua;
+  }
+  #marginTop {
+      margin-top: -2px; 
+  }
+
+  .searchResults {
+    cursor: pointer;
+    padding:5px;
+    border-radius:15px;
+    background-color:#e2d0bb;
+    margin:4px;
+}
+.searchResults:hover {
+    transform: scale(0.98);
+}
+
+
+#sub {
+    position: relative;
+    background-color: rgb(238, 238, 238);
+    display:table;
+    width:100%;
+}
+
+
+.restCategoryButtons {
+    font-size:30px;
+    border:none;
+    cursor: pointer;
+    padding-bottom:10px; 
+    transition: 0.2s;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #f7951d80;
+    color: white;
+    
+
+}
+
+.restCategoryButtons:hover {
+    text-decoration: underline;
+}
+
+#menyInfoUtskrift {
+    background-color: rgb(245, 243, 243);
+    overflow: scroll;
+
+    
+    height:280px; /*midlertidig height*/
+    padding:40px 20px;
+}
+
+#addresse { 
+    background-color: rgb(245, 243, 243);
+     border-radius:10px;
+     padding:10px;
+     
+ }
+ 
+ #addresseDiv {
+     border: 2px dashed black;
+     background-color: #f7941d;
+ }
+ 
+ #logoAddresse {
+     font-size:25px;
+ }
+ 
+ #logo {
+     float:left;
+     margin-right:10px;
+ }
+ 
+ #btnDiv {
+     margin-left: 20px;
+     margin-top:30px;
+     margin-bottom:-5px; 
+     
+ }
+ .h1 {
+     text-decoration: underline;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ 
+ }
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 0px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    visibility: hidden;
+    border-radius:10px;
+    margin:5px;
+    transition: 0.3s;
+   }
+
+#mapBig {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    z-index: 2;
+    border-radius:10px;
+    margin:5px;
+   }
+
+#openMap {
+    width: 100%;
+    margin:10px auto;
+    border-radius:5px;
+    background-color:#f7941d;
+    color:white;
+    border: none;
+    font-size:20px;
+    padding:5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#openMap:hover {
+    /* background-color: rgb(189, 103, 6); */
+    transform: scale(0.98);
+
+}
+#searchResults {
+    display: none;
+    width: 100%;
+    overflow: scroll;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    z-index: 3;
+}
+
+.searchLink {
+    text-decoration: none;
+    color: black;
+}
+.produkt {
+    border-bottom: 0.2px solid black;
+    padding: 20px;
+    transition: 0.1s;
+}
+.produkt p {
+    margin: 0px;
+}
+
+.produkt:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.heading {
+    font-size: 20px;
+}
+.price {
+    margin-left: 30px; 
+}
+.place {
+    float: right;
+}
+.place:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+

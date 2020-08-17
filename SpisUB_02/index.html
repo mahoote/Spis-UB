@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/logo/forkUno.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Spis UB</title>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy0DlaNiitmBAyp2jgWgLmiecwLGsur50 &callback=initMap2"></script>
+    <script type="text/javascript" src="script.js" defer></script>
+
+</head>
+
+<body>
+    <div id="div" onclick="closeNav()"></div>
+    <img id="openNav" src="img/navbtn.png" alt="Button to open navbar" height="110px" onclick="openNav()">
+    <nav id="navbar">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <img id="logo-nav" src="img/logo/logo.jpg" alt="Spis UB logo" width="150">
+        <div id="btns">
+            <a href="#restauranter" onclick="closeNav()"><input type="button" value="restauranter" class="nav-btn"></a>
+            <a href="#kart" onclick="closeNav()"><input type="button" value="kart" class="nav-btn"></a>
+            <a href="#om-oss" onclick="closeNav()"><input type="button" value="om oss" class="nav-btn"></a>
+            <div id="socialDiv">
+                <p>Følg oss på sosiale medier!</p>
+                <a href="https://www.facebook.com/SPIS.UB/">
+                    <img class="socialMedia" src="img/social/facebook_new.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/spis.ub/">
+                    <img class="socialMedia" src="img/social/instagram_new.png" alt="instagram">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <header id="heading">
+            <img id="spisUB" src="img/heading/headerOne.jpg" alt="food">
+            <img id="spis-small" src="img/heading/headerTwo.jpg" alt="food">
+        </header>
+        <div id="searchPhone">
+            <div class="overflow">
+                <input type="text" onclick="visSok()" placeholder="Søk.." class="searchbar">
+            </div>
+            <div id="searchResults">
+            </div>
+        </div>
+
+        <div id="visBilder">
+            <div class="centerDiv">
+                <div id="carousel"></div>
+            </div>
+            <div id="locations">
+                <div class="responsive">
+                    <div class="gallery">
+                        <img class="imgLocations" src="img/locations/img/porsgrunn.jpg" alt="Porsgrunn">
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <img class="imgLocations" src="img/locations/img/skien.jpg" alt="Skien">
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <img class="imgLocations" id="marginTop" src="img/locations/img/bamble.jpg" alt="Bamble">
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <img class="imgLocations" id="marginTop" src="img/locations/img/siljan.jpg" alt="Siljan">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="text">
+            <div id="restauranter">
+                <h3 class="h3-heading"><span class="span-category">Restauranter</span></h3>
+                <img class="img-category" src="img/icons/black/icon_Restaurants.png" alt="Restaurant logo">
+                <div id="results"> Søk for å starte å finne dine restauranter</div>
+            </div>
+            <div id="kart">
+                <h3 class="h3-heading"><span class="span-category">Kart</span></h3>
+                <img class="img-category" src="img/icons/black/icon_Map.png" alt="Restaurant logo">
+                <div id="mapBig"></div>
+            </div>
+            <div id="om-oss">
+                <h3 class="h3-heading"><span class="span-category">Om oss</span></h3>
+                <img class="img-category" src="img/icons/black/icon_Info.png" alt="Restaurant logo">
+                <p class="font">Vi i SPIS UB består av tre jenter som engasjerer oss innenfor innovasjon og nyskapning.
+                    Vi ønsker å skape en enklere hverdag for hvert enkelt menneske og ønsker å
+                    bidra med vår kompetanse.<br><br>
+                    Bedriften består av Amalie Aasrum, Jeronica Negård Sætervik og Pernille Lauritsen.
+                    Vi går sammen på Porsgrunn VGS i tredje klasse.<br><br>
+                    Med god kompetanse innenfor kreative og
+                    visuelle fag etterfulgt av studiespesialiserende fag ønsker vi å nå langt i prosessen. </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
